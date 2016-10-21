@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bai.SearchActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/searche_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入要查询的事件标题"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/ic_event_black_24dp"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search_event"
+            ></ListView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

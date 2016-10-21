@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_cloud_queue_black_24dp"
+            android:title="所有事件" />
+        <item
+            android:id="@+id/nav_night"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="新建事件" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="事件搜索" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="退出登录" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back13"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入昵称"
+            android:textSize="20sp"
+            android:id="@+id/nicheng"
+            />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fadingEdgeLength="2000sp"
+                android:hint="请输入手机号码"
+                android:id="@+id/shoujihao"
+                android:textSize="20sp"
+                />
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/send"
+                android:text="点击获取验证码" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="验证码"
+            android:id="@+id/yanzhengma"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:id="@+id/mima"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/zhuceButton"
+            android:text="注册"
+            android:background="@color/green"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account_circle_black_48dp"
+        android:paddingTop="40dp"
+        android:paddingLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您还没有登录云服务，不能同步您的时间哟"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:id="@+id/user_name"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+
+</LinearLayout>
